@@ -30,3 +30,34 @@ print("Height as integer:", height_int, "(Type:", type(height_int), ")")
 print("Boolean as integer:", is_student_int, "(Type:", type(is_student_int), ")")
 
 ```
+
+## Basic structure operations :
+
+### Operators in python :
+
+```
+print("\nArithmetic Operators:")
+a = 10
+b = 3
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Floor Division:", a // b)
+print("Modulus (Remainder):", a % b)
+print("Exponentiation:", a ** b)
+
+
+print('\nComparison Operators')
+print('a is greater than b:', a > b)
+print('a is less than b:', a < b)
+print('a is greater than or equal to b:', a >= b)
+print('a is less than or equal to b:', a <= b)
+print(' a is equal to b:', a == b)
+print('a is not equal to b:', a != b)
+
+
+print('\nLogical Operators')
+print(a > b and a < 20)
+print(a < b or a > 11)
+```
