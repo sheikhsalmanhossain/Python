@@ -77,6 +77,7 @@ print('Height : ', height)
 
 ### Exercise2: Data types:
 #Create variable to store "a number, a decimal number,a word, a truth value(True/False)"
+
 #Use the type() function toprint the data type of each variable
 ```
 number = 10
