@@ -61,3 +61,15 @@ print('\nLogical Operators')
 print(a > b and a < 20)
 print(a < b or a > 11)
 ```
+
+
+#Exercise1: Understanding variables:
+# Declare three varibales. Print all Three variables.
+
+name = 'salman' #String
+age = 25 #Integer
+height = 5.7 #Float
+
+print('Name: ', name)
+print('Age : ', age)
+print('Height : ', height)
