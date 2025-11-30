@@ -90,3 +90,20 @@ print('Decimal: ', type(decimal))
 print('Word: ', type(word))
 print('Truth Value: ', type(truth))
 ```
+
+
+### Exercise3: Type Conversion:
+#create a variable with a string value of "25". Convert it into an integer and a float and print both results.
+```
+value = "25"
+print(value)
+print('Type of value:', type(value))
+int_value = int(value) #converting str to int
+print(int_value)
+print('Type of int value: ', type(int_value))
+
+
+float_value = float(value)#converting to float
+print(float_value)
+print('Type of float value: ', type(float_value))
+```
