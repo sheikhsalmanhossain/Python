@@ -103,7 +103,7 @@ print(int_value)
 print('Type of int value: ', type(int_value))
 
 
-float_value = float(value)#converting to float
+float_value = float(value) #converting to float
 print(float_value)
 print('Type of float value: ', type(float_value))
 ```
