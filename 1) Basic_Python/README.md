@@ -126,7 +126,9 @@ print('Exponentiation: ', a**b)  #a to the power b
 
 ### Exercise 5: Comparison and logical operators:
 #Define two variables: x=5,y=10
+
 #Print the results of the following comparisons:
+
 #x is greater than y, x is less than or equal to y, x is equal to y, x is not equal to y.
 ```
 x = 5
