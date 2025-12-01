@@ -107,3 +107,18 @@ float_value = float(value) #converting to float
 print(float_value)
 print('Type of float value: ', type(float_value))
 ```
+
+### Exercise4: Arithmetic Operators:
+#Given the variables a=5, b=9 perform and print the results of the following operations:
+#Addition,subtraction,multiplication,division,floor division,modulus,exponentiation.
+```
+a = 5
+b = 9
+print('Addition: ', a+b)
+print('Subtraction: ', a-b)
+print('Multiplication: ', a*b)
+print('Division: ', a/b)
+print('Floor Division: ', a//b) #only the whole number
+print('Modulus (remainder): ', a%b) #what will remain after division
+print('Exponentiation: ', a**b)  #a to the power b
+```
