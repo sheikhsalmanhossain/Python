@@ -110,6 +110,7 @@ print('Type of float value: ', type(float_value))
 
 ### Exercise4: Arithmetic Operators:
 #Given the variables a=5, b=9 perform and print the results of the following operations:
+
 #Addition,subtraction,multiplication,division,floor division,modulus,exponentiation.
 ```
 a = 5
