@@ -63,7 +63,7 @@ print(a < b or a > 11)
 ```
 
 ## Exercise :
-### Exercise1: Understanding variables:
+### Exercise 1: Understanding variables:
 #Declare three varibales. Print all Three variables.
 ```
 name = 'salman' #String
@@ -75,7 +75,7 @@ print('Age : ', age)
 print('Height : ', height)
 ```
 
-### Exercise2: Data types:
+### Exercise 2: Data types:
 #Create variable to store "a number, a decimal number,a word, a truth value(True/False)"
 
 #Use the type() function to print the data type of each variable
@@ -92,7 +92,7 @@ print('Truth Value: ', type(truth))
 ```
 
 
-### Exercise3: Type Conversion:
+### Exercise 3: Type Conversion:
 #create a variable with a string value of "25". Convert it into an integer and a float and print both results.
 ```
 value = "25"
@@ -108,7 +108,7 @@ print(float_value)
 print('Type of float value: ', type(float_value))
 ```
 
-### Exercise4: Arithmetic Operators:
+### Exercise 4: Arithmetic Operators:
 #Given the variables a=5, b=9 perform and print the results of the following operations:
 
 #Addition,subtraction,multiplication,division,floor division,modulus,exponentiation.
@@ -123,3 +123,14 @@ print('Floor Division: ', a//b) #only the whole number
 print('Modulus (remainder): ', a%b) #what will remain after division
 print('Exponentiation: ', a**b)  #a to the power b
 ```
+
+### Exercise 5: Comparison and logical operators:
+#Define two variables: x=5,y=10
+#Print the results of the following comparisons:
+#x is greater than y, x is less than or equal to y, x is equal to y, x is not equal to y.
+x = 5
+y = 10
+print('x is greater than y:', x>y) #False
+print('x is less than or equal to y:', x<=y) #True
+print('x is equal to y:', x==y) #False
+print('x is not equal to y:', x !=y) #True
