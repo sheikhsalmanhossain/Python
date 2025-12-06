@@ -139,6 +139,8 @@ print('x is equal to y:', x==y) #False
 print('x is not equal to y:', x !=y) #True
 ```
 
+--------------------------------------------------------------------------------------------------------------------------------
+
 ### For loop:
 
 for loop repeats a block of code a fixed number of times. It is useful when you know in advance how many times you want to iterate.
