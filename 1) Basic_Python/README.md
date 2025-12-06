@@ -138,3 +138,46 @@ print('x is less than or equal to y:', x<=y) #True
 print('x is equal to y:', x==y) #False
 print('x is not equal to y:', x !=y) #True
 ```
+
+### For loop:
+
+for loop repeats a block of code a fixed number of times. It is useful when you know in advance how many times you want to iterate.
+
+```
+for i in range (5):
+    print("Iteration", i)
+```
+
+### While loop:
+While loop repeats while a condition is True.
+(we are only going to enter the loop if the condition is true. Be careful with infinite loop)
+
+```
+count = 0
+while count < 3:
+    print("Count:", count)
+    count += 1   #increment count. if we miss this, it will be infinite loop.
+```
+
+### Breaking and skipping loops :
+#### break :
+break basically you add the condition and then if the condition is met, you can break the loop.
+```
+for i in range (5):
+    if i == 3:
+        break
+    print(i)
+```
+
+#### continue: 
+continue means skip the iteration.
+
+```
+for i in range (5):
+    if i == 2:
+        continue
+    print(i)
+```
+
+
+
