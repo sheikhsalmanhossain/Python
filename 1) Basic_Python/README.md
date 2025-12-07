@@ -141,7 +141,7 @@ print('x is not equal to y:', x !=y) #True
 
 --------------------------------------------------------------------------------------------------------------------------------
 
-### For loop:
+### a) For loop:
 
 for loop repeats a block of code a fixed number of times. It is useful when you know in advance how many times you want to iterate.
 
@@ -150,7 +150,7 @@ for i in range (5):
     print("Iteration", i)
 ```
 
-### While loop:
+### b) While loop:
 While loop repeats while a condition is True.
 (we are only going to enter the loop if the condition is true. Be careful with infinite loop)
 
@@ -161,7 +161,7 @@ while count < 3:
     count += 1   #increment count. if we miss this, it will be infinite loop.
 ```
 
-### Breaking and skipping loops :
+### c) Breaking and skipping loops :
 #### break :
 break basically you add the condition and then if the condition is met, you can break the loop.
 ```
@@ -181,7 +181,7 @@ for i in range (5):
     print(i)
 ```
 
-### Conditional Statements: if-elif-else
+### d) Conditional Statements: if-elif-else
 Conditional statements allow your program to make decisions based weather certain conditions are true or false.
 #### The if statement :
 The if statement is the simplest form of conditional statement. It executes a block of code only if a specified condition is True.
