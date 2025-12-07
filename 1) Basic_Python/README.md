@@ -222,3 +222,44 @@ elif score >= 60:
 else:
     print("grade: F")
 ```
+
+
+### e) Nested Conditional Statements :
+You can also nest conditional statements inside each other.
+
+```
+#Nested if statements
+age = 25
+has_liscense = 1 #Bollean, any number=True, 0=False
+
+if age >= 18:
+    print("Age requirement passed.")
+
+    if has_liscense:
+        print("You can drive a car.")
+    else:
+        print(" You need a liscense to drive.")
+else:
+    print("You are too young to drive.")
+```
+
+### f) Logical Operators In Conditions :
+
+and : Both conditions must be True.
+
+or : At least one condition must be true.
+
+not : Inverts the condition.(True becomes False, False becomes True)
+
+```
+#using logical operators:
+age = 10
+income = 65000
+
+if age > 20 and income > 30000:
+    print("You qualify for the loan.")
+if age > 30 or income > 60000:
+    print("You are qualify for the premium card.")
+if not (age < 18):
+    print("You are not a minor.")
+```
