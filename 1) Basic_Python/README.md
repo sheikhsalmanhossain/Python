@@ -141,7 +141,7 @@ print('x is not equal to y:', x !=y) #True
 
 --------------------------------------------------------------------------------------------------------------------------------
 
-### a) For loop:
+## a) For loop:
 
 for loop repeats a block of code a fixed number of times. It is useful when you know in advance how many times you want to iterate.
 
@@ -150,7 +150,7 @@ for i in range (5):
     print("Iteration", i)
 ```
 
-### b) While loop:
+## b) While loop:
 While loop repeats while a condition is True.
 (we are only going to enter the loop if the condition is true. Be careful with infinite loop)
 
@@ -161,8 +161,8 @@ while count < 3:
     count += 1   #increment count. if we miss this, it will be infinite loop.
 ```
 
-### c) Breaking and skipping loops :
-#### break :
+## c) Breaking and skipping loops :
+### break :
 break basically you add the condition and then if the condition is met, you can break the loop.
 ```
 for i in range (5):
@@ -171,7 +171,7 @@ for i in range (5):
     print(i)
 ```
 
-#### continue: 
+### continue: 
 continue means skip the iteration.
 
 ```
@@ -181,7 +181,7 @@ for i in range (5):
     print(i)
 ```
 
-### d) Conditional Statements: if-elif-else
+## d) Conditional Statements: if-elif-else
 Conditional statements allow your program to make decisions based weather certain conditions are true or false.
 #### The if statement :
 The if statement is the simplest form of conditional statement. It executes a block of code only if a specified condition is True.
@@ -193,7 +193,7 @@ if age >= 18:
     print("You are an adult.")
 ```
 
-#### The if-else statement :
+### The if-else statement :
 The if-else statement provides an alternative block of code to execute when the condition is False.
 
 ```
@@ -205,7 +205,7 @@ else :
     print("Its not very hot today.")
 ```
 
-#### The if-elif-else statement :
+### The if-elif-else statement :
 The if-elif-else statement allows you to check multiple conditions.
 
 ```
@@ -224,7 +224,7 @@ else:
 ```
 
 
-### e) Nested Conditional Statements :
+## e) Nested Conditional Statements :
 You can also nest conditional statements inside each other.
 
 ```
@@ -243,7 +243,7 @@ else:
     print("You are too young to drive.")
 ```
 
-### f) Logical Operators In Conditions :
+## f) Logical Operators In Conditions :
 
 and : Both conditions must be True.
 
