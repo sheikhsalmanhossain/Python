@@ -181,5 +181,44 @@ for i in range (5):
     print(i)
 ```
 
+### Conditional Statements: if-elif-else
+Conditional statements allow your program to make decisions based weather certain conditions are true or false.
+#### The if statement :
+The if statement is the simplest form of conditional statement. It executes a block of code only if a specified condition is True.
 
+```
+#Basic of if statement
+age = 18
+if age >= 18:
+    print("You are an adult.")
+```
 
+#### The if-else statement :
+The if-else statement provides an alternative block of code to execute when the condition is False.
+
+```
+#if-else statement
+temperature = 15
+if temperature > 25:
+    print("Its a hot day.")
+else :
+    print("Its not very hot today.")
+```
+
+#### The if-elif-else statement :
+The if-elif-else statement allows you to check multiple conditions.
+
+```
+#if-elif-else statement
+score = 85
+if score >= 90:
+    print("grade: A")
+elif score >= 80:
+    print("grade: B")
+elif score >= 70:
+    print("grade: C")
+elif score >= 60:
+    print("grade: D")
+else:
+    print("grade: F")
+```
