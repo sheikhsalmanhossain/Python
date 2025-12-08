@@ -263,3 +263,57 @@ if age > 30 or income > 60000:
 if not (age < 18):
     print("You are not a minor.")
 ```
+
+
+## For Loop :
+
+### For Loops with range() :
+for loops allow you to execute a block of code multiple times. When using range(), the loops iterates over a sequence of numbers.
+
+#### Basic For Loop with range() :
+The range() function generates a sequence of numbers. By default it starts at 0 and increments by 1.
+
+```
+#Basic for loop with range
+for i in range(5):
+    print(f"Iteration {i}")
+```
+#### Specifying Start and stop in range() :
+you can specify both the start and stop values in range().
+
+```
+#Range with start and stop values
+for i in range(2,8):   #2 is minimum & 8 is maximum value
+    print(f"Number: {i}")
+```
+
+#### Specifying Step in range() :
+you can also specify the step (increment) value in range().
+
+```
+#Range with start, stop and step values
+for i in range(1, 10, 2):   #start value, end-1, increment
+    print(f"odd number: {i}")
+```
+
+#### Counting Backwards with range() :
+you can count backwards by using a negative step value.
+
+```
+#counting backwords with range
+for i in range(10, 0, -1):   #increment is negative, so it downgrade number
+    print(f"countdown: {i}")
+```
+
+### Nested For Loops :
+you can nest one for loop inside another to create more complex patterns.
+
+```
+#nested for loop
+for i in range(1, 4):
+    print(f"Outer loop {i}")
+    
+    for j in range(1, 3):
+        print(f" inner loop{j}")
+```
+
