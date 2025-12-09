@@ -317,3 +317,27 @@ for i in range(1, 4):
         print(f" inner loop{j}")
 ```
 
+### Break & Continue in For Loops :
+
+break: Exits the loop immediately
+
+continue: Skips the current iteration and moves to the next one.
+
+```
+#using break in a for loop
+for i in range(1, 10):
+    if i == 5:
+        print("Breaking the loop at i=5")
+        break
+    print(f"Number: {i}")
+```
+
+```
+#using continue in a for loop
+for i in range(1, 6):
+    if i == 3:
+        print("Skipping i=3")
+        continue
+    print(f"Number: {i}")
+```
+
